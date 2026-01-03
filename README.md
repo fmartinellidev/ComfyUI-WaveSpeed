@@ -9,7 +9,6 @@ A **generic, flexible node** to integrate **any [WaveSpeed](https://wavespeed.ai
 ✅ Terminal progress bar (just like KSampler)  
 ✅ Image & video output support  
 ✅ Fully configurable via `endpoint_url` — just paste from WaveSpeed Playground!  
-✅ Batch prompt management with `Prompt Snippet Extractor`  
 ✅ Example workflow included 🎁
 
 ---
@@ -35,9 +34,6 @@ Restart ComfyUI.
 | **WaveSpeed API (Generic)** | Run any WaveSpeed endpoint (`nano-banana-pro`, `wan-2.1`, `flux-dev`, etc.) |
 | **WaveSpeed API Key Loader** | Inject API key without environment variables |
 | **WaveSpeed Image Uploader** | Upload directly to WaveSpeed CDN (official `cloudfront.net` URLs) |
-| **Prompt Snippet Extractor** | Manage batch prompts (e.g. `001_smile\n...\n---\n002_serious\n...`) |
-| **Prompt Variable Extractor** | Extract `key='value'` pairs from text (e.g. `seed='123'`) |
-
 ---
 
 ## 🛠️ `WaveSpeed API (Generic)` — Inputs & Outputs
@@ -139,3 +135,4 @@ PRs are welcome! For major changes, please open an issue first.
 Made with ❤️ by [fmartinellidev](https://github.com/fmartinellidev) to FP8 Studio.  
 Inspired by [WaveSpeed AI](https://wavespeed.ai)
 ```
+
